@@ -157,3 +157,11 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// //email functionality
+// document.querySelector('.contact-link').addEventListener('click', function(e) {
+//   if (!navigator.onLine) {
+//       e.preventDefault(); // Prevent the mailto if offline
+//       alert('Please ensure you are online to send an email.');
+//   }
+// });

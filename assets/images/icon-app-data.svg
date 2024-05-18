@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="none"/>
+
+  <!-- Database Cylinders -->
+  <g>
+    <!-- Bottom Cylinder -->
+    <ellipse cx="100" cy="170" rx="50" ry="10" fill="#D0C0C0"/>
+    <rect x="50" y="170" width="100" height="30" fill="#D0C0C0"/>
+    <path d="M150,200 C150,210 100,210 100,200 C100,190 50,190 50,200" fill="#D0C0C0"/>
+
+    <!-- Middle Cylinder -->
+    <ellipse cx="100" cy="110" rx="50" ry="10" fill="#FFD0CD"/>
+    <rect x="50" y="110" width="100" height="30" fill="#FFD0CD"/>
+    <path d="M150,140 C150,150 100,150 100,140 C100,130 50,130 50,140" fill="#FFD0CD"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,5; 0,0" begin="0s" dur="2s" repeatCount="indefinite"/>
+
+    <!-- Top Cylinder -->
+    <ellipse cx="100" cy="50" rx="50" ry="10" fill="#FFFFFF"/>
+    <rect x="50" y="50" width="100" height="30" fill="#FFFFFF"/>
+    <path d="M150,80 C150,90 100,90 100,80 C100,70 50,70 50,80" fill="#FFFFFF"/>
+  </g>
+</svg>
