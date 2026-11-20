@@ -1,0 +1,9 @@
+{
+  "client_id": "https://aarushidhingra.github.io/cimd/app.json",
+  "client_name": "Aarushi Dhingra Portfolio",
+  "redirect_uris": ["https://aarushidhingra.github.io/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "jwks_uri": "https://aarushidhingra.github.io/cimd/jwks.json"
+}
